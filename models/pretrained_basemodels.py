@@ -19,6 +19,7 @@ def get_pretrained_path(model_name):
     model_pretrain_dict = {}
     model_pretrain_dict['mae1klarge'] = "../../pro/mae_pretrain_vit_large.pth"
     model_pretrain_dict['mae1kbase'] = "../../pro/mae_pretrain_vit_base.pth"
+    model_pretrain_dict['mae1k300ep'] = "../../pro/mae_pretrain_vit_base_300ep.pth"
     model_pretrain_dict['ibot1kbase'] = "../../pro/ibot-vit-base-teacher.pth"
 
     return model_pretrain_dict[model_name]
@@ -34,7 +35,7 @@ class PretrainedBaseModel(nn.Module):
         if 'mae1klarge' == basemodel:
             this_basemodel = vit_large_patch16(
                 mlp_token=False, num_tokens=1, pred_att=pred_att, last_layers=last_layers, topkatt=topkatt)
-        elif 'mae1kbase' == basemodel or 'ibot1kbase' == basemodel:
+        elif 'mae1kbase' == basemodel or 'ibot1kbase' == basemodel or 'mae1k300ep' == basemodel:
             this_basemodel = vit_base_patch16(
                 mlp_token=False, num_tokens=1, pred_att=pred_att, last_layers=last_layers, topkatt=topkatt)
         else:
