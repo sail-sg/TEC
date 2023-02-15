@@ -1,8 +1,10 @@
 # Towards Sustainable Self-supervised Learning
 
-**Target-Enhanced Conditional (TEC) pretraining: a Faster and Stronger self-supervised pretraining method.**
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-sustainable-self-supervised-learning/semantic-segmentation-on-imagenet-s)](https://paperswithcode.com/sota/semantic-segmentation-on-imagenet-s?p=towards-sustainable-self-supervised-learning)
 
 The official implementation of paper: [Towards Sustainable Self-supervised Learning](https://arxiv.org/abs/2210.11016)
+**Target-Enhanced Conditional (TEC) pretraining: a Faster and Stronger self-supervised pretraining method.**
+
 
 ## Introduction
 
