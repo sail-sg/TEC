@@ -16,12 +16,14 @@ Extensive experimental results show  that our TEC scheme can accelerate the lear
 | Method | Network |Base model| Pretrain data | Epoch | Top 1 acc. |
 |------|------|--------|---------|-------|------------|
 |TEC|ViT-B| MAE 300ep |ImageNet-1k|100|83.9|
-|TEC|ViT-B| MAE 300ep |ImageNet-1k|100|84.3|
+|TEC|ViT-B| MAE 300ep |ImageNet-1k|300|84.3|
 |TEC|ViT-B| MAE       |ImageNet-1k|300|84.7|
 |TEC|ViT-B| MAE       |ImageNet-1k|800|84.8|
 |TEC|ViT-B| iBoT      |ImageNet-1k|300|84.8|
 |TEC|ViT-B| iBoT      |ImageNet-1k|800|85.1|
 |TEC|ViT-L| MAE       |ImageNet-1k|300|86.5|
+
+[Logs](https://github.com/sail-sg/tec/releases/tag/logs)
 
 # Training
 
